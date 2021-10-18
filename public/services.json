@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "DENTIST",
+        "img": "https://i.ibb.co/Bzj9Dz7/dentist1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 2,
+        "name": "CARDIOLOGIST",
+        "img": "https://i.ibb.co/T8qcYZZ/hart-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 3,
+        "name": "PHYSIO THERAPIST",
+        "img": "https://i.ibb.co/xLNdjpf/heart-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 4,
+        "name": "GYNICOLOGIST",
+        "img": "https://i.ibb.co/CJhtnDg/pain-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 5,
+        "name": "CARDIOLOGIST",
+        "img": "https://i.ibb.co/CJhtnDg/pain-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 6,
+        "name": "MURDERER",
+        "img": "https://i.ibb.co/ZJbc19P/pediatric-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 7,
+        "name": "NEUROSERGERY",
+        "img": "https://i.ibb.co/ZJbc19P/pediatric-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    },
+    {
+        "id": 8,
+        "name": "DENTIST",
+        "img": "https://i.ibb.co/ZJbc19P/pediatric-1.jpg",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient"
+    }
+]
