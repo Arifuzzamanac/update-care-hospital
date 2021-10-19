@@ -6,23 +6,23 @@ initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    const [isLoading, setisLoading] = useState(true)
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
+        setisLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user)
-            })
+        return signInWithPopup(auth, googleProvider)
     }
-
+    // observe user state, nothing to do this function just declare it for better performance
     useEffect(() => {
+        setisLoading(true);
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user)
             } else {
                 setUser({})
-            }
+            } setisLoading(false)
 
             return () => unsubscribe;
         });
@@ -33,13 +33,16 @@ const useFirebase = () => {
             setUser({})
         }).catch((error) => {
             // 
-        });
+        }).finally(
+            () => setisLoading(false)
+        );
     }
 
 
     return {
         user,
         logOut,
+        isLoading,
         signInUsingGoogle,
     };
 };

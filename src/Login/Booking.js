@@ -3,10 +3,12 @@ import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
 const Booking = () => {
-    const { serviceId } = useParams();
+    const { ServiceId } = useParams();
+    // const { name } = props.service;
     return (
         <div>
-            <h2>This is booking {serviceId}</h2>
+            <h2>This is booking {ServiceId}</h2>
+            {/* <h1>Name: {name}</h1> */}
 
             <Link to='/'>
                 <button className='btn btn-primary'>Go Home</button>

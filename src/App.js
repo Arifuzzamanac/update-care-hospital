@@ -28,6 +28,9 @@ function App() {
             <PrivateRouter path='/Booking/:ServiceId'>
               <Booking></Booking>
             </PrivateRouter>
+            <PrivateRouter path='/Booking/:ServiceId'>
+              <Booking></Booking>
+            </PrivateRouter>
             <Route path='*'>
               <NotFound></NotFound>
             </Route>
