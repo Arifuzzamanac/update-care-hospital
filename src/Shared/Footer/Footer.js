@@ -6,9 +6,9 @@ const Footer = () => {
         <div>
 
             <div>
-                <Navbar bg="dark" variant="dark" sticky='top' collapseOnSelect expand="lg">
+                <Navbar bg="dark" variant="dark" fixed="bottom" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Toggle />
+                        {/* <Navbar.Toggle /> */}
                         <div className='text-white pt-3 mx-5'><p><small>all 	&copy; righit reserved by developer end</small></p></div>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav.Link className='text-white' href="#home">Home</Nav.Link>
@@ -16,9 +16,9 @@ const Footer = () => {
                             <Nav.Link className='text-white' href="#experts">Experts</Nav.Link>
                         </Navbar.Collapse>
                         <div className="d-flex justify-content-center">
-                            <Nav.Link><i className="fab fa-facebook-square text-white "></i></Nav.Link>
-                            <Nav.Link><i className="fab fa-twitter-square text-white "></i></Nav.Link>
-                            <Nav.Link><i className="fab fa-instagram-square text-white "></i></Nav.Link>
+                            <Nav.Link><i className="fab fa-facebook-square text-white fs-4 "></i></Nav.Link>
+                            <Nav.Link><i className="fab fa-twitter-square text-white fs-4 "></i></Nav.Link>
+                            <Nav.Link><i className="fab fa-instagram-square text-white fs-4 "></i></Nav.Link>
                         </div>
                     </Container>
                 </Navbar>
