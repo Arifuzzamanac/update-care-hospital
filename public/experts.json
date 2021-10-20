@@ -25,7 +25,25 @@
     },
     {
         "id": 5,
-        "name": "Dr.Kader",
+        "name": "Dr.Culbul",
+        "img": "https://i.ibb.co/W2HykqF/Healthcare-workers-medicine-covid-19-and-pandemic-self-quarantine-concept-Smiling-attractive-doctor.jpg",
+        "description": "Dentist Expert, M.B.B., F.R.C.S, Professor at Squre hospital care"
+    },
+    {
+        "id": 6,
+        "name": "Dr.Bulbul",
+        "img": "https://i.ibb.co/W2HykqF/Healthcare-workers-medicine-covid-19-and-pandemic-self-quarantine-concept-Smiling-attractive-doctor.jpg",
+        "description": "Dentist Expert, M.B.B., F.R.C.S, Professor at Squre hospital care"
+    },
+    {
+        "id": 7,
+        "name": "Dr.Babul",
+        "img": "https://i.ibb.co/W2HykqF/Healthcare-workers-medicine-covid-19-and-pandemic-self-quarantine-concept-Smiling-attractive-doctor.jpg",
+        "description": "Dentist Expert, M.B.B., F.R.C.S, Professor at Squre hospital care"
+    },
+    {
+        "id": 8,
+        "name": "Dr.Abul",
         "img": "https://i.ibb.co/W2HykqF/Healthcare-workers-medicine-covid-19-and-pandemic-self-quarantine-concept-Smiling-attractive-doctor.jpg",
         "description": "Dentist Expert, M.B.B., F.R.C.S, Professor at Squre hospital care"
     }

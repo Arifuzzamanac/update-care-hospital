@@ -34,3 +34,8 @@
 
 
 // note : 61.9 video ta dekeha lagbe for reload site 
+
+
+https://i.ibb.co/fQqq8VF/l1.jpg
+https://i.ibb.co/rxVknCY/l2.jpg
+https://i.ibb.co/sbtq2J9/l3-1.jpg

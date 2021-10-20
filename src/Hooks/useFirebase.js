@@ -16,7 +16,7 @@ const useFirebase = () => {
     }
     // observe user state, nothing to do this function just declare it for better performance
     useEffect(() => {
-        setisLoading(true);
+        // setisLoading(true);
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
                 setUser(user)

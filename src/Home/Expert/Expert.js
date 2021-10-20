@@ -1,11 +1,12 @@
 import React from 'react';
 import { Card, CardGroup, Nav } from 'react-bootstrap';
+import './Expert.css'
 
 const Expert = ({ expert }) => {
     const { name, img, description } = expert;
     return (
         <div className='col-md-3 col-sm-6 col-12 mb-5'>
-            <CardGroup>
+            <CardGroup className="expert">
                 <Card className='mb-4'>
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
