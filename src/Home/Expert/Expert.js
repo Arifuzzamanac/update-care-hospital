@@ -15,13 +15,13 @@ const Expert = ({ expert }) => {
                             {description}
                         </Card.Text>
                     </Card.Body>
-                    <Card.Footer>
+                    <div>
                         <div className="d-flex justify-content-center">
                             <Nav.Link><i className="fab fa-facebook-square fs-3"></i></Nav.Link>
                             <Nav.Link><i className="fab fa-twitter-square fs-3"></i></Nav.Link>
                             <Nav.Link><i className="fab fa-instagram-square fs-3"></i></Nav.Link>
                         </div>
-                    </Card.Footer>
+                    </div>
                 </Card>
             </CardGroup>
         </div>
