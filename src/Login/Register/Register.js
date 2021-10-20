@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useAuth from '../Hooks/useAuth';
+import useAuth from '../../Hooks/useAuth';
 import { useHistory, useLocation } from 'react-router';
 
-const Login = () => {
+const Register = () => {
     const { signInUsingGoogle } = useAuth();
-    const location = useLocation();
     const history = useHistory();
+    const location = useLocation();
     const redirect_url = location.state?.from || '/home';
     const handleGoogleLogIn = () => {
         signInUsingGoogle()
@@ -18,21 +18,23 @@ const Login = () => {
     return (
         <div>
             <div>
-                <h2>Please Login</h2>
+                <h2>Please sign up</h2>
                 <form>
                     <input type="email" name="" id="" placeholder="Your email" />
                     <br /><br />
-                    <input type="password" name="" id="" placeholder="Yout password" />
+                    <input type="password" name="" id="" placeholder="Your password" />
+                    <br /><br />
+                    <input type="password" name="" id="" placeholder="Re-enter password" />
                     <br /><br />
                     <input onClick={handleGoogleLogIn} type="submit" value="Submit" className="btn btn-primary" />
                     <br /><br />
                 </form>
-                <p>New in here ? <Link to="/register">Create your account</Link></p>
-                <div>-----------or-----------</div>
+                <p>Already have an account <Link to="/login">Login</Link></p>
+                <div>-----------or------------</div><br />
                 <Button onClick={handleGoogleLogIn} className="btn-primary"><i class="fab fa-google"></i></Button>
             </div>
         </div>
     );
 };
 
-export default Login;
+export default Register;

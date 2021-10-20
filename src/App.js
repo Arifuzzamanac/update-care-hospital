@@ -5,6 +5,7 @@ import Home from './Home/Home/Home';
 import Booking from './Login/Booking';
 import Login from './Login/Login';
 import PrivateRouter from './Login/PrivateRouter/PrivateRouter';
+import Register from './Login/Register/Register';
 import NotFound from './NotFound/NotFound';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path='/login'>
               <Login></Login>
+            </Route>
+            <Route path='/register'>
+              <Register></Register>
             </Route>
             <PrivateRouter path='/Booking/:ServiceId'>
               <Booking></Booking>
